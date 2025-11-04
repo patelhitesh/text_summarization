@@ -3,7 +3,7 @@ Text Summarization API
 A lightweight, API that automatically summarizes long pieces of text into clear, concise summaries. Whether you’re building a content analysis tool, integrating summarization into a chatbot, or processing large volumes of documents, this API makes it easy to extract the core meaning of any text in seconds.
 
 How it works:
-Send a POST request with your text payload to the API endpoint, and get back a JSON response containing a well-structured summary. You control the summary length and style through simple parameters, letting you choose between brief overviews or more detailed digests.
+Send a POST request with the text payload to the API endpoint, and get back a JSON response containing a well-structured summary. You control the summary length and style through simple parameters, letting you choose between brief overviews or more detailed digests.
 
 ![Architecture Diagram](images/ts_architecture.png)
 
@@ -14,7 +14,8 @@ Key features:
 - Lightweight, stateless design for easy deployment in any environment
 
 Example request:
-`POST /summarize  
+`
+POST /summarize  
 Content-Type: application/json  
 
 {
@@ -24,7 +25,8 @@ Content-Type: application/json
 `
 
 Example response:
-`{
+`
+{
   "summary": "This is the concise summary of your text."
 }
 `
