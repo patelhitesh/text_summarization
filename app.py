@@ -4,7 +4,7 @@ import requests
 
 app = FastAPI()
 
-GEMINI_API_KEY = "AIzaSyCK4NI5v4RusX0zuRi9fyy3s3-CHbTtYSs"
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent"
 
 class SummaryRequest(BaseModel):
